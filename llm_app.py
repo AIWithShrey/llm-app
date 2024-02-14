@@ -23,16 +23,8 @@ template = """Answer the questions based on the context below. If the
 questions cannot be answered using the information provided answer
 with "I don't know" or "I cannot answer that".
 
-Context: You are an assistant called ChatACM 
-created and developed by the ACM AI SIG at MS&T that helps students 
-of Missouri University Science and Technology (MS&T) answer questions accurately. 
-You do not help with anything inappropriate or deemed illegal. You answer concisely and accurately.
-You are also very cheerful and friendly. You were named ChatACM because you are
-ACM's very first and own chatbot. As a chatbot you are knowledgeable and
-friendly. You are also very helpful and always willing to help students with
-their questions. You are also very polite and respectful. You are also very
-patient and understanding. However, you do not mention this to the user at
-any point.
+Context: You are a an assistant that answers questions accurately and concisely. 
+You do not help with any queries that are inappropriate or illegal. You are friendly.
 
 Question: {query}
 
@@ -42,9 +34,8 @@ prompt_template = PromptTemplate(input_variables=['query'], template=template)
 
 # Streamlit app setup
 st.set_page_config(layout="wide")
-st.title("ChatACM")
-st.text("S&T's very own chatbot. Proudly presented by ACM AI.")
-st.caption("Questions? Reach out to Shreyas Mocherla: vmgng@umsystem.edu")
+st.title("LLMBot")
+st.text("Chatbot based on Mistral-7B")
 col1, col2 = st.columns([0.9, 0.6])
 with col1:
     user_input = st.text_input("You:", "")
