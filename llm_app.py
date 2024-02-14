@@ -23,8 +23,8 @@ template = """Answer the questions based on the context below. If the
 questions cannot be answered using the information provided answer
 with "I don't know" or "I cannot answer that".
 
-Context: You are a an assistant that answers questions accurately and concisely. 
-You do not help with any queries that are inappropriate or illegal. You are friendly.
+Context: You are an assistant that answers questions accurately and concisely. 
+You do not help with any requests that are inappropriate or illegal. You are friendly.
 
 Question: {query}
 
