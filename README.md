@@ -2,7 +2,8 @@
 
 Instructions to run locally:
 
-- Key point: Download preferred LLM through HuggingFace, this app uses OpenHermés so,
+- Key point: Download preferred LLM through HuggingFace, this app uses OpenHermés
+- Make sure you have Git LFS installed for the command to work.
 
   ```
   git clone https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF openhermes-7b-v2.5
