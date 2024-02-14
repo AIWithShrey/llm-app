@@ -2,6 +2,12 @@
 
 Instructions to run locally:
 
+- Key point: Download preferred LLM through HuggingFace, this app uses OpenHermés so,
+
+  ```
+  git clone https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF openhermes-7b-v2.5
+  mv openhermes-7b-v2.5 models/
+  ```
 ```
 pip install -r requirements.txt
 ```
