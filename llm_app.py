@@ -11,7 +11,6 @@ import tempfile
 
 # Initialize Llama model
 model_path = "models/openhermes-7b-v2.5/DESIRED_QUANTISED_MODEL_HERE"
-#model = Llama(model_path=model_path, chat_format="chatml", n_gpu_layers=-1, n_batch=2048)
 model = LlamaCpp(model_path=model_path, 
                  chat_format="llama-2", 
                  n_gpu_layers=-1, 
