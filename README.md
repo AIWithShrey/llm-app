@@ -1,4 +1,4 @@
-# Welcome to ChatACM
+# LLM-based chatbot
 
 Instructions to run locally:
 
