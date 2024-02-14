@@ -1,7 +1,10 @@
-# Welcome to streamlit
+# Welcome to ChatACM
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+Instructions to run locally:
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
-
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+```
+pip install -r requirements.txt
+```
+```
+streamlit run llm_app.py --server.address 0.0.0.0 --server.port 8000
+```
